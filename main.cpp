@@ -3,6 +3,9 @@
 #include <vector>
 using namespace std;
 
+// Function prototype
+void showValues(vector<int>);
+
 int main()
 {
     vector<int> values;
@@ -30,6 +33,6 @@ void showValues(vector<int> vect)
     for (int count = 0; count < vect.size(); count++)
     {
         cout << vect[count] << " ";
-        cout << endl;
     }
+    cout << endl;
 };
