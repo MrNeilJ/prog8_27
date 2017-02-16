@@ -29,6 +29,7 @@ void showValues(vector<int> vect)
 {
     for (int count = 0; count < vect.size(); count++)
     {
-
+        cout << vect[count] << " ";
+        cout << endl;
     }
 };
