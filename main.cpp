@@ -12,4 +12,23 @@ int main()
     {
         values.push_back(count * 2);
     }
+
+    // Display the numbers
+    showValues(values);
+
+    return 0;
 }
+
+/********************************************************************
+ *                          showValues                              *
+ *  This function accepts an int vector as its sole argument, and   *
+ *  displays the value stored in each of the vector's elements      *
+ ********************************************************************/
+
+void showValues(vector<int> vect)
+{
+    for (int count = 0; count < vect.size(); count++)
+    {
+
+    }
+};
